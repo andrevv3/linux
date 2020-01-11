@@ -1,0 +1,6 @@
+[web]
+Deb ansible_host=127.0.0.1 ansible_port=2222 ansible_private_key_file="/mnt/e/VirtualBox VMs/Vagrant-Otus/.vagrant/machines/Deb/virtualbox/private_key"
+CentOS ansible_host=127.0.0.1 ansible_port=2200 ansible_private_key_file="/mnt/e/VirtualBox VMs/Vagrant-Otus/.vagrant/machines/RedHat/virtualbox/private_key"
+
+[Debian]
+Deb ansible_host=127.0.0.1 ansible_port=2222 ansible_private_key_file="/mnt/e/VirtualBox VMs/Vagrant-Otus/.vagrant/machines/Deb/virtualbox/private_key"
