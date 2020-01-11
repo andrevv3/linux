@@ -1,0 +1,23 @@
+---
+- name: install htop
+  hosts: Deb
+  become: true
+  tasks:
+   - name: install htop from standart repo
+     apt:
+      name: htop
+      state: present
+     tags:
+      - install htop
+      - htop 
+
+- name: install tree
+  hosts: CentOS
+  become: yes
+  tasks:
+   - name: install tree on CentOS
+     yum:
+      name: tree
+      state: present
+     tags:
+      - install tree
